@@ -107,6 +107,7 @@ header {
   color: black;
   font-size: 25px;
   cursor: pointer;
+  border-radius: 4px;
   font-family: "Bodoni Moda SC", "Courier New", Courier, monospace;
 }
 
