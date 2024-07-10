@@ -21,24 +21,32 @@
       <section class="grid-container">
         <div class="grid-item">
           <img
-            src="./651cc0eeb5cb83b7dd745cd7_Tablet 2708x1598.webp"
+            src="./assests/651cc0eeb5cb83b7dd745cd7_Tablet 2708x1598.webp"
             alt="photo1"
           />
-          <button type="button">Websites -></button>
+          <button onclick="navigateToNewPage('websites.html')" type="button">
+            Websites -&gt;
+          </button>
         </div>
         <div class="grid-item">
-          <img src="./pexels-fauxels-3184465.jpg" alt="photo1" />
-          <button type="button">Services -></button>
+          <img src="./assests/pexels-fauxels-3184465.jpg" alt="photo1" />
+          <button type="button">Services -&gt;</button>
         </div>
         <div class="grid-item">
-          <img src="./images.jpeg" alt="photo1" />
-          <button type="button">About -></button>
+          <img src="./assests/images.jpeg" alt="photo1" />
+          <button type="button">About -&gt;</button>
         </div>
         <div class="grid-item">
-          <img src="./download (1).jpeg" alt="photo1" />
-          <button type="button">Contact -></button>
+          <img src="./assests/download (1).jpeg" alt="photo1" />
+          <button type="button">Contact -&gt;</button>
         </div>
       </section>
     </main>
+
+    <script>
+      function navigateToNewPage(url) {
+        window.location.href = url;
+      }
+    </script>
   </body>
 </html>

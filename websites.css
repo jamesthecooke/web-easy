@@ -1,0 +1,23 @@
+/* * {
+  border: 1px red solid;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.title {
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 45px;
+  font-family: "Bodoni Moda SC", "Courier New", Courier, monospace;
+}
