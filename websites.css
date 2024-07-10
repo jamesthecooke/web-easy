@@ -13,6 +13,7 @@ header {
   margin-bottom: 50px;
   padding: 0;
   background-color: #f0f0f0;
+  height: 125px;
 }
 
 .title {
@@ -20,4 +21,23 @@ header {
   padding: 10px;
   font-size: 45px;
   font-family: "Bodoni Moda SC", "Courier New", Courier, monospace;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.item a {
+  display: block;
+  padding: 10px 20px; /* Adjusted for better spacing */
+  color: black;
+  font-size: 25px;
+  text-decoration: none; /* Remove the underline */
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, border 0.3s; /* Smooth transitions */
+}
+
+.item a:hover {
+  background-color: black;
+  color: white;
 }
