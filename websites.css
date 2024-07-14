@@ -56,8 +56,31 @@ main {
   font-family: "Bodoni Moda SC", "Courier New", Courier, monospace;
 }
 
-ul {
+.center-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.p-content {
+  font-size: 25px;
+  margin-bottom: 55px;
+}
+
+.web-contents {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
+  font-size: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.web-contents-items {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-family: "Bodoni Moda SC", "Courier New", Courier, monospace;
 }
