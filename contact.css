@@ -13,6 +13,10 @@ header {
   height: 125px;
 }
 
+main {
+  padding: 20px;
+}
+
 .title {
   margin: 0 5px;
   padding: 10px;
@@ -37,4 +41,59 @@ header {
 .item a:hover {
   background-color: black;
   color: white;
+}
+
+.contact-title h2 {
+  text-align: center;
+  font-family: "Bodoni Moda SC", "Courier New", Courier, monospace;
+  font-size: 45px;
+  margin-bottom: 100px;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-methods {
+  margin-bottom: 30px;
+}
+
+.contact-methods h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-methods p {
+  text-align: justify;
+  margin: 10px 0;
+  font-size: 25px;
+  border-radius: 5px 100vw;
+  background-color: #f0f0f0;
+  padding: 25px;
+}
+
+.contact-methods ul {
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-methods ul li {
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.contact-methods ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-methods ul li a:hover {
+  text-decoration: underline;
 }
