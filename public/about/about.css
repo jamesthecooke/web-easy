@@ -23,6 +23,16 @@
   nav {
     top: 90px !important;
   }
+
+  .about-title h2 {
+    font-size: 40px !important;
+    margin-top: 45px;
+  }
+
+  .about-section h3,
+  p {
+    font-size: 20px !important;
+  }
 }
 
 body {
