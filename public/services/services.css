@@ -1,3 +1,30 @@
+@media (max-width: 425px) {
+  .grid-container {
+    grid-template-columns: 1fr !important; /* Change to single column layout */
+  }
+
+  header {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align text */
+  }
+
+  .title {
+    padding-bottom: 0px !important;
+  }
+
+  header p {
+    margin-top: 0;
+  }
+
+  .grid-item img {
+    height: 300px !important;
+  }
+
+  nav {
+    top: 90px !important;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
