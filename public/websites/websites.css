@@ -46,11 +46,7 @@ header {
 }
 
 main {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 20px;
 }
 
 .title {
@@ -80,40 +76,25 @@ main {
 }
 
 .web-title h2 {
-  margin-top: 10;
-  font-size: 55px;
+  text-align: center;
   font-family: "Bodoni Moda SC", "Courier New", Courier, monospace;
+  font-size: 45px;
+}
+
+.about-web {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .center-content {
-  max-width: 800px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  text-align: justify;
+  margin: 20px 0;
+  border-radius: 5px 100vw;
   background-color: #f0f0f0;
   padding: 25px;
-  border-radius: 5px 100vw;
 }
 
-.p-content {
-  font-size: 25px;
-}
-
-.web-contents {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.center-content p {
   text-align: justify;
+  margin: 10px 0;
   font-size: 25px;
-  max-width: 800px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-}
-
-.web-contents-items {
-  padd
-}
-
-strong {
-  font-family: "Bodoni Moda SC", "Courier New", Courier, monospace;
 }
