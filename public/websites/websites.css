@@ -26,7 +26,16 @@
 
   nav {
     top: 90px !important;
-    padding-bottom: 100px;
+  }
+
+  .web-title h2 {
+    margin-bottom: 0px !important;
+    font-size: 40px !important;
+  }
+
+  .center-content p,
+  li {
+    font-size: 20px !important;
   }
 }
 
@@ -96,5 +105,9 @@ main {
 .center-content p {
   text-align: justify;
   margin: 10px 0;
+  font-size: 25px;
+}
+
+.web-contents li {
   font-size: 25px;
 }
